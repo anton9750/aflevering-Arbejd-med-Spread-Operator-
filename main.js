@@ -1,21 +1,16 @@
 
-const numbers = [1, 2, 3];  
-const numbas = [1, 2, 3];
+const numbers = [1, 2, 3];
 
 const moreNumbers = [...numbers, 4, 5];
-const morenumbas = {...numbas, 4: 4, 5: 5};
 
 console.log("Opgave 1:", moreNumbers);
-console.log("opgave 2:", morenumbas);
+
+
 
 const original = ["Anna", "Mads", "Lea"];
-const originale = ("Thomas", "Steffan", "Anakue")
 
 const copy = [...original];
 copy.push("Jonas");
-
-const copa = {...originale};
-copa.push("Nappa");
 
 console.log("Opgave 2 - original:", original);
 console.log("Opgave 2 - copy:", copy);
